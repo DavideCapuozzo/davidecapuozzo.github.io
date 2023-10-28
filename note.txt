@@ -1,0 +1,61 @@
+------------- CREAZIONE ALBERATURA -------------------
+Di base il progetto deve contenere una cartella assets con all'interno
+img, css, sass, js, video
+nomeProgetto/
+|
+assets/
+|
+js/
+img/
+video/
+css/
+sass/
+font/
+
+------------- UTILIZZO DI SASS -----------------------
+
+Sass è un linguaggio usato per semplificare lo sviluppo Frontend, 
+in particolare la scrittura di file CSS.
+
+1) Scarica da rubyinstaller.org
+2) assicurati che la cartella contenente i file di sass abbia le autorizzazioni
+per poter funzionare al meglio.
+
+Per installare il transpiler Sass, aprire una finestra del promt dei comandi
+e lancia il seguente comando-> gem install sass.
+Ora testiamo che l'installazione sia stata effettata correttamente 
+lanciamo il comando-> sass -v
+
+Se il comando non dovesse restituire errore assicuriamoci che la cartella di ruby
+abbia gli accessi giusti per farlo andiamo in sistea -> impostazioni di sistema avanzate
+e andiamo a selezionare le nostre cartelle di sistema x86 o x64 al suo interno
+andiamo ad aggiungere il percorso della cartella di ruby
+
+Una volta fatto cio per inizializzare l'utilizzo di sass lancio il seguente comando
+sass --watch assets/sass/style.scss:assets/css/style.css
+
+Se tutti ha funzionato correttamente una volta che salviamo il nostro file .scss 
+dovrebbe aggiornarsi il nostro file css che abbiamo collegato 
+
+--------------- INTERESSANTE L'UTILIZZO DELLA CLASSE 'ORDER' --------------------
+Assegnando la classe order a i vari elementi possiamo andare a definire la posizione degli elemmenti
+da sfruttare sicuramente nel caso si volia utilizzare una diversa visualizzazione da mobile rispetto al desk
+come nel nostro caso con l'immaigne personale
+
+------------- CAROSELLO MULTICOLONNA BOOTSTRAP 5 INTROVABILE !!!!!!!!!!!!!! ---------------------------
+https://www.codeply.com/p/0CWffz76Q9
+
+
+------------------ Invio Mail Gratis ---------------------
+https://www.emailjs.com/
+Account creato con devsoloweb@gmail.com
+
+tutorial essenziale:
+https://www.youtube.com/watch?v=qxWDVRyc95E
+
+
+
+
+
+
+

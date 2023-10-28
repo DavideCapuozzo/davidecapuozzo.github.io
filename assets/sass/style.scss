@@ -1,0 +1,670 @@
+
+$primary-color : black;
+$secondary-color : #999;
+$spacer: 1rem;
+
+.container-xxl{
+  --bs-gutter-x: 1.5rem;
+}
+
+#img-box2{
+  order: 2!important;
+}
+
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 0rem!important;
+} */
+
+.pt-5{
+  padding-top: $spacer * 6 !important;
+}
+
+.image-logo{
+  width: 100px!important;
+}
+
+
+body{
+  color: $primary-color;
+  font-family: 'Inter', sans-serif;
+
+  #title-change{
+    color: #f35c55;
+  }
+
+  .submit-btn{
+    border: 0;
+    background: white;
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;;
+  }
+
+  .submit-btn:hover{
+    animation: bounce;
+    animation-duration: 1s;
+  }
+
+  .testo-image-contattami-due{
+    a{
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  .testo-image-contattami-due:hover{
+    animation: bounce;
+    animation-duration: 1s;
+  }
+
+  .container-xxl{max-width: 1300px!important;}
+
+  header{
+    position: relative;
+    width: 100%;
+  }
+
+  .uno{
+    display: flex; 
+    flex: 1 1; 
+    justify-content: flex-start;
+  }
+
+  .due{
+    display: flex; 
+    flex: 1 1; 
+    justify-content: flex-end;
+  } 
+
+  .logo-pos{
+    display: flex; 
+    flex: auto; 
+    justify-content: space-around;
+  } 
+
+  #frase-contatta p{
+    font-size: 2rem; 
+    line-height: 1.375; 
+    text-align: center;
+  }
+
+  #container-image-contattami{
+    height:600px; 
+    background-image: url(/assets/img/call-to-action-mail-2.png); 
+    background-position: calc(45% + 30px) calc(45% + 30px);
+    background-repeat: no-repeat; 
+    // background-size: cover;
+    text-align: center;
+  }
+
+  @media(max-width: 1000px) {
+    #container-image-contattami{
+        background-image:none;
+        height:400px;
+    }
+  }
+
+  .testo-image-contattami-uno{
+    font-size: 12px;
+  }
+
+  .testo-image-contattami-due{
+    font-weight: bold; 
+    font-size: 80px; 
+    font-family: 'Playfair Display', serif;
+
+
+  }
+
+  .image-contattami{
+    width:50px;
+  }
+
+  #spazio-contact{
+    height: 250px;
+  }
+
+  @media(max-width: 1000px) {
+    #spazio-contact{
+      height: 100px;
+    }
+  }
+
+  .navbar{
+    height: 12.5rem;
+  }
+
+  .navbar-brand {
+    margin-left: var(--bs-navbar-brand-margin-end);
+  }
+
+  .container-l{
+    width: 1500px!important;
+  }
+
+  #instagram img{
+    width: 20px;
+  }
+
+  #git img{
+    width: 30px;
+  }
+
+  h1{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h2{
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    
+  }
+  
+  h3{
+    font-size: .875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $secondary-color!important;
+  }
+
+  h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+
+  p{
+    font-weight: 400;
+    font-size: 1.250rem;
+  }
+
+  .navbar{
+
+    #Link-menu{
+      position: absolute;
+    }
+
+    #Social-menu{
+      right: 0px;
+    }
+
+    #navbarNav{
+      text-align: center;
+    }
+
+    .reserved{
+      display: none;
+    }
+
+    a{
+      font-size: 1rem;
+      font-weight: 900;
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+
+  } 
+
+  #box-one{
+    width: 100%;
+  }
+
+  #box-two{
+
+    img{
+      width: 100%;
+    }
+
+    .card-body{
+      padding-top: $spacer * 6 !important;
+      margin-left: $spacer * .6 !important;
+      margin-right: $spacer * .6 !important;
+      
+    }
+
+  }
+
+  .divider{
+    height: 1px;
+    background-color: $primary-color;
+    display: block;
+    margin-left: $spacer * .6 !important;
+    margin-right: $spacer * .6 !important;
+  }
+
+  .card-skill{
+    text-align: center; 
+    margin: 20px 30px 20px 30px;
+
+    .forma{
+      display: flex; 
+      background-color: #f2f2f2; 
+      height: 150px; 
+      border-radius: 9.375rem; 
+      align-items: center; 
+      justify-content: center; 
+      margin: auto;
+    }
+
+    .logo{
+      display: flex; 
+      align-items: flex-end; 
+      justify-content: center;
+
+      img{
+        height: 90px; 
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%); 
+        -o-filter: grayscale(100%);
+        filter: gray;
+      }
+
+    }
+
+  }
+
+
+
+  .img-loghi-test:hover{
+    filter: grayscale(0%)!important;
+    animation: bounce;
+    animation-duration: 1s;
+  }
+
+  #footer{
+    li{
+      margin: 0px 10px 50px 10px;
+    }
+    p{font-size: 14px;}
+
+    .due-footer{
+      display: flex; 
+      flex: 1 1; 
+      justify-content: flex-end;
+    }
+
+    #Social-menu{
+      flex-direction: row;
+    }
+
+  }
+
+  #mail-footer{text-align: center;}
+
+
+  ///////////////////////////////////////////////
+  ////// --------- CAROSELLO ------------ //////
+  //////////////////////////////////////////////
+
+  .splide_slide{
+    height: 50vh;
+    margin-right: 60px!important;
+  } 
+
+
+  .image-container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .image {
+    position: relative;
+    top: -0;
+    transition: top 3s ease;
+  }
+
+  /* .image:hover {
+    top: -1400px;
+  } */
+
+  #andrea-service-website:hover{
+    top: -1000px;
+  }
+
+  #drumohr-web-site:hover{
+    top: -1400px;
+  }
+
+  #deboracortelazzi-website:hover{
+    top: -500px;
+  }
+
+  #ig-piccinotti-antiquariato:hover{
+    top: -730px;
+  }
+
+  #ig-perini-arredamenti:hover{
+    top: -730px;
+  }
+
+  
+  
+}
+
+.testo-image-contattami-due{
+  
+  a{
+    font-size: 50px;
+  }
+
+}
+
+
+/////////////////////////////////////////////
+//// --------- CONTACT PAGE ------------ ////
+/////////////////////////////////////////////
+
+#container-contact{
+  --bs-gutter-x: 4rem; 
+  padding-right: calc(var(--bs-gutter-x) * .5);
+}
+
+#row-title{
+  text-align: left;
+
+  h1{
+    text-align: left; 
+    font-size: 6rem; 
+    font-weight: 600;
+  }
+
+  .space{
+    height: 50px;
+  }
+
+}
+
+#row-contact{
+
+  .space30{
+    height: 30px;
+  }
+
+  .space40{
+    height: 40px;
+  }
+
+  .space100{
+    height: 100px;
+  }
+}
+
+.submit img{
+  width:50px; 
+  margin-left:30px;
+}
+
+.contactSocial{
+
+  float:left; 
+  display: flex;
+
+  a{
+    margin-right: 20px;
+  }
+
+}
+
+
+input{
+  font-size: 2.25rem;
+  width: 100%;
+  padding: 0.625rem 0 0.625rem 0;
+  border: none;
+  outline: 0;
+  border-bottom: 1px solid black;
+}
+
+.submit{
+  background-color: white;
+  border: none;
+  font-size: 90px;
+}
+
+
+
+
+
+
+
+///////////////////////////////////////////////
+//////// --------- MOBILE ------------ ////////
+//////////////////////////////////////////////
+
+
+/* @media only screen and (min-width: 760px) and (max-width: 960px) {
+
+  .uno{
+    display: block!important;
+  }
+  .due{display: block!important;}
+
+} */
+
+@media only screen and (max-width: 991px) {
+
+
+  .order-2{
+    order: 1!important;
+  }
+
+  header{
+    width: 100%; 
+    position: relative;
+  }
+
+  h1{
+    font-size: 3rem!important;
+  }
+
+  .pt-5{
+    padding-top: $spacer * 3 !important;
+  }
+
+  .uno{
+
+    justify-content: space-around!important;
+  }
+
+  .due{
+
+    justify-content: space-around!important;
+  }
+
+  .navbar{
+
+    .navbar-toggler {
+      margin-right: var(--bs-navbar-brand-margin-end);
+    }
+
+    .reserved{
+      display: inline;
+      color: $secondary-color;
+
+      p{
+        font-size: 12px;
+      }
+    }
+
+    #navbarNav{
+      left: 0px;
+    }
+
+    #Link-menu{
+      margin-top: 120px;
+      margin-bottom: 250px;
+    }
+
+    li {
+      margin: auto 10px;
+      //margin: auto
+    }
+
+    a {
+      font-weight: 800;
+      color: $primary-color;
+      font-size: 1.875rem;
+    }
+
+    // Fade in mobile menu
+    .navbar-collapse {
+      position: absolute;
+      top: 0;
+      height: 100vh !important;
+      width: 100%;
+      padding-top: 100px;
+      z-index: 400;
+      background-color: white;
+    }
+    
+    .collapse-left.navbar-collapse{
+      opacity: 1;
+      transition: opacity .1s linear;
+    }
+    
+    .navbar-toggler{
+      z-index: 500;
+    }
+    // #################################
+
+    #Social-menu {
+      
+      //position: absolute!important;
+      bottom: 70px;
+      display: -webkit-inline-box;
+    }
+
+
+  } 
+  
+  #box-one{
+    width: 100%;
+  }
+
+  #box-two{
+
+    div{
+      text-align: center;
+    }
+
+    .card-title{
+      text-align: center!important;
+    }
+
+    .card-text{
+      text-align: center!important;
+    }
+
+    .card-body{
+      padding-top: $spacer * 3 !important;
+      
+    }
+
+  }
+
+  #copy-footer{
+    text-align: center;
+  }
+
+  .due-footer{justify-content: space-around !important;}
+ 
+  #row-title h2{
+    text-align: left; 
+    font-size: 5rem; 
+    font-weight: 600;
+  }
+  
+
+
+}
+
+
+
+
+
+
+
+/* @media (max-width: 960px){
+
+  .navbar{
+
+    .navbar-toggler {
+      margin-right: var(--bs-navbar-brand-margin-end);
+    }
+
+    .reserved{
+      display: inline;
+      color: $secondary-color;
+
+      p{
+        font-size: 12px;
+      }
+    }
+
+    #navbarNav{
+      left: 0px;
+    }
+
+    #Link-menu{
+      margin-top: 120px;
+      margin-bottom: 250px;
+    }
+
+    li {
+      margin: auto 10px;
+      //margin: auto
+    }
+
+    a {
+      font-weight: 800;
+      color: $primary-color;
+      font-size: 1.875rem;
+    }
+
+    // Fade in mobile menu
+    .navbar-collapse {
+      position: absolute;
+      top: 0;
+      height: 100vh !important;
+      width: 100%;
+      padding-top: 100px;
+      z-index: 400;
+      background-color: white;
+    }
+    
+    .collapse-left.navbar-collapse{
+      opacity: 1;
+      transition: opacity .1s linear;
+    }
+    
+    .navbar-toggler{
+      z-index: 500;
+    }
+    // #################################
+
+    #Social-menu {
+      
+      //position: absolute!important;
+      bottom: 70px;
+      display: -webkit-inline-box;
+    }
+
+
+  }
+
+}
+ */
+
+
+
+
