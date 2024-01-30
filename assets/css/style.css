@@ -26,6 +26,8 @@ body {
     background: white;
     font-size: 70px;
     font-family: 'Playfair Display', serif; }
+    body .submit-btn img {
+      width: 50px; }
   body .submit-btn:hover {
     animation: bounce;
     animation-duration: 1s; }
